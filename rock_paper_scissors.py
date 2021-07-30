@@ -11,8 +11,7 @@ player_choice = player_choice.lower()
 
 # The computer will make a random choice
 computer_choices = ['rock', 'paper', 'scissors']
-number = random.randint(0,2)
-computer_choice = (computer_choices[(number)])
+computer_choice = (computer_choices[random.randint(0,2)])
 
 ## Logic goes here:
 print(f"You chose: {player_choice.title()}. The computer chose {computer_choice.title()}.")
